@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing page Project - Mohamed Essam Ahmed</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Load Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">
+    <!-- Load Styles -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+    <header class="page__header">
+        <nav class="navbar__menu">
+            <!-- Navigation starts as empty UL that will be populated with JS -->
+            <ul id="navbar__list">
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <header class="main__hero">
+            <h1>Landing Page Project </h1>
+        </header>
+        <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+
+        <section id="section1" data-nav="Programming">
+            <div class="landing__container">
+                <h2>Programming</h2>
+                <p>عملية إنشاء أو كتابة التعليمات أو الأوامر لكي يتم تنفيذها من قبل المتلقي، والمتلقي هو أي جهاز قابل للبرمجة. ويمكن تعريف البرمجة على أنها وسيلة للتواصل بين البشر (المبرمج) والآلة (والتي تتمثل في أي جهاز قابل للبرمجة)، حيث إعتاد البشر على
+                    إستخدام اللغات المختلفة مثل اللغة العربية أو الإنجليزية للتواصل فيما بينهم، فقد تم إبتكار مجموعة من اللغات الأخرى (لغات البرمجة) للتواصل بين البشر والآلة، وكما هو الحال بين البشر اللذين يتحدثون بلغات مختلفة حيث يتم إستخدام مترجم ليتمكن
+                    البشر من فهم اللغات المختلفة، يتم ذلك أيضا بين البشر والآلة حيث يتم ترجمة لغة البرمجة (التي يفهمها البشر) إلى لغة الآلة والتي تتمثل في الصفر والواحد أو كما تعرف بـ النظام الثنائي وهي اللغة التي تفهمها الآلة عن طريق إستخدام برامج مخصصة
+                    لذلك مثل المترجم Compiler أو المفسر Interpreter. </p>
+                <p>. بعض لغات البرمجة الشائعة هي Python و C و C ++ و Java وما إلى ذلك.</p>
+            </div>
+        </section>
+
+        <section id="section2" data-nav="HTML">
+            <div class="landing__container">
+                <h2>HTML</h2>
+                <p>هي إختصار HyperText Markup Language، وهي ليست لغة برمجية بالمعنى المتعارف عليه للغات البرمجة، ولكنها لغة أو طريقة لوصف محتويات صفحة الويب لبرامج التصفح، حيث أن أي برنامج متصفح انترنت يحتاج لمعرفة محتويات الصفحة من عناوين ونصوص وصور وروابط
+                    و غير ذلك من مكونات صفحة الويب، حتى تتمكن من عرضها بالشكل الصحيح، ولغة الترميز HTML، هي اللغة الرئيسية التي يتكون منها أي موقع أو صفحة على شبكة الإنترنت.</p>
+
+                <p>وتتكون صفحة الويب من مجموعة من العناصر (Tags) أو تعرف كــ الوسوم، يكتب كل وسم بين (angle brackets) أو كما تسمى علامة أصغر من > وعلامة أكبر من . ولا يقوم المتصفح بعرض هذه الوسوم، ولكن يقوم بعرض محتوياتها، وهناك نوعين من الوسوم.</p>
+            </div>
+        </section>
+
+        <section id="section3" data-nav="CSS">
+            <div class="landing__container">
+                <h2>CSS</h2>
+                <p>تعتبر CSS -اختصار ل - (Cascading Style Sheet) لغة توصيفية تقوم بمنح موقع الويب شكله الجميل وتصميمه الفريد الذي سيميزه عن غيره من المواقع . تعد لغة ال CSS صديقة للغة ال HTML فهي دائماً مرافقة لها وبجانبها في تصميم وإنشاء صفحات الويب. تشكل
+                    كل من هاتان اللغتان الأساس لكل موقع، فال HTML هي أساس كل عناصر صفحة الويب أما ال CSS فهي أساس تصميم وشكل الموقع فبدونها ستظل مواقع الويب نصًا عاديًا على خلفيات بيضاء.</p>
+
+                <p>قبل البدء ببناء و تطوير لغة ال CSS في عام 1996 من قبل اتحاد شبكة الويب العالمية (W3C) ، كانت صفحات الويب محدودة و بسيطة للغاية من حيث الشكل والوظيفة. فقد كانت المتصفحات القديمة تعرض صفحات الويب كصفحات تتكون من نصوص سوداء بخلفية بيضاء فقط
+                    (نص – صور – روابط .. إلخ) بدون أي تصميم يذكر. ولم يكن هناك تخطيط لموعد إطلاق لغة ال CSS . سمحت CSS بتصميم وتشكيل صحفات الويب بطرق متعددة و مختلفة لتتمكن من استيعاب مدى إبداع الشخص .</p>
+            </div>
+        </section>
+
+        <section id="section4" data-nav="JavaScript">
+            <div class="landing__container">
+                <h2>JavaScript</h2>
+                <p>جافا سكريبت هي لغة برمجة صممت في الأصل لإضافة مؤثرات وتفاعلات لصفحات الويب، ويعنى بالتفاعلات كل ما يتم عمله أو إجراؤه على مستوى المتصفح من دون الحاجة لإعادة تحميل الصفحة. نذكر على سبيل المثال:</p>
+
+                <p>تعتبر لغة البرمجة JavaScript - إلى جانب كل من HTML و CSS - العمود الفقري لأي صفحة ويب حديثة، وكل التطبيقات والمنصات الإلكترونية التي نعرفها وندخل إليها كل يوم تعتمد بشكل كبير جدا عليها، حتى أن موقع مثل فيسبوك لا يعمل عند تعطيلها.</p>
+            </div>
+        </section>
+
+    </main>
+    <footer class="page__footer">
+        <p style="text-align: center; direction: ltr;">&copy Udacity , Designer By Mohamed Essam Ahmed Mohamed </p>
+        <p style="text-align: center;">Email : Masryxgamer@gmail.com </p>
+    </footer>
+    <button onclick="totopscrl()" id="totop" title="etl3 fo2"></button>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
